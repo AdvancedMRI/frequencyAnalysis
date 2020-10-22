@@ -1,4 +1,4 @@
-mrTools Plugins to do various analyses:
+Plugins for mrTools (https://gru.stanford.edu/doku.php/mrtools/plugins) to do various analyses:
 
 freqAnal: frequency analysis of time series data (i.e of PC EPI data as in Chen 2015)
 
