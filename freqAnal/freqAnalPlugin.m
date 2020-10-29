@@ -2,8 +2,8 @@
 %
 %        $Id: freqAnalPlugin.m 1969 2010-12-19 19:14:32Z julien $ 
 %      usage: freqAnalPlugin(action,<thisView>)
-%         by: julien besle
-%       date: 11/01/2011
+%         by: alex beckett
+%       date: 05/2013
 %
 function retval = freqAnalPlugin(action,thisView)
 
@@ -37,3 +37,5 @@ end
 % --------------------------------------------------------------------
 function freqAnal_Callback(hObject, eventdata)
 
+view = viewGet(getfield(guidata(hObject),'viewNum'),'view');
+view = freqAnal(view);
